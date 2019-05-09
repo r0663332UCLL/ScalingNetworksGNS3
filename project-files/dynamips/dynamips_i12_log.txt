@@ -1,0 +1,39 @@
+May 09 13:34:18.866 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 09 13:34:18.866 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35123.
+May 09 13:34:18.876 HYPERVISOR: exec_cmd: hypervisor version 
+May 09 13:34:18.876 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips 
+May 09 13:34:18.876 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips
+May 09 13:34:18.876 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips/7daec069-7392-4b9d-a382-0ed5129f3a89 
+May 09 13:34:18.876 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips/7daec069-7392-4b9d-a382-0ed5129f3a89
+May 09 13:34:18.877 HYPERVISOR: exec_cmd: vm create Building_1_router 1 c2691 
+May 09 13:34:18.877 VM: VM Building_1_router created.
+May 09 13:34:18.877 HYPERVISOR: exec_cmd: vm set_con_tcp_port Building_1_router 5019 
+May 09 13:34:18.877 HYPERVISOR: exec_cmd: c2691 get_mac_addr Building_1_router 
+May 09 13:34:18.878 HYPERVISOR: exec_cmd: vm set_con_tcp_port Building_1_router 5019 
+May 09 13:34:18.878 HYPERVISOR: exec_cmd: c2691 set_mac_addr Building_1_router c001.1bc2.0000 
+May 09 13:34:18.878 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:34:18.878 HYPERVISOR: exec_cmd: vm set_idle_pc Building_1_router 0x60a4c074 
+May 09 13:34:18.879 HYPERVISOR: exec_cmd: vm set_ios Building_1_router /home/alci/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25b.image 
+May 09 13:34:18.879 HYPERVISOR: exec_cmd: vm set_ram Building_1_router 192 
+May 09 13:34:18.879 HYPERVISOR: exec_cmd: vm set_nvram Building_1_router 256 
+May 09 13:34:18.879 HYPERVISOR: exec_cmd: vm set_disk0 Building_1_router 0 
+May 09 13:34:18.880 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:34:18.880 HYPERVISOR: exec_cmd: vm slot_add_binding Building_1_router 1 0 NM-16ESW 
+May 09 13:34:19.296 HYPERVISOR: exec_cmd: nio create_udp udp-4acf8a31-9aeb-47e6-9b19-b7509f2ff609 10008 127.0.0.1 10009 
+May 09 13:34:19.513 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Building_1_router 0 0 udp-4acf8a31-9aeb-47e6-9b19-b7509f2ff609 
+May 09 13:34:19.514 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:34:19.966 HYPERVISOR: exec_cmd: nio create_udp udp-8048a37a-313e-4b7b-aa4b-54b4e094e28e 10018 127.0.0.1 10019 
+May 09 13:34:19.969 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Building_1_router 1 0 udp-8048a37a-313e-4b7b-aa4b-54b4e094e28e 
+May 09 13:34:19.969 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:34:20.924 HYPERVISOR: exec_cmd: nio create_udp udp-2cbe60db-4472-4a9b-adba-a97a848bd7c9 10048 127.0.0.1 10049 
+May 09 13:34:20.925 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Building_1_router 0 1 udp-2cbe60db-4472-4a9b-adba-a97a848bd7c9 
+May 09 13:34:20.926 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:34:21.004 HYPERVISOR: exec_cmd: nio create_udp udp-a8ed3037-884f-4d6f-9461-5ee1cbfa6567 10058 127.0.0.1 10059 
+May 09 13:34:21.005 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Building_1_router 1 2 udp-a8ed3037-884f-4d6f-9461-5ee1cbfa6567 
+May 09 13:34:21.005 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:37:14.795 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:37:14.795 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding Building_1_router 1 2 
+May 09 13:37:14.796 HYPERVISOR: exec_cmd: nio delete udp-a8ed3037-884f-4d6f-9461-5ee1cbfa6567 
+May 09 13:41:23.630 HYPERVISOR: exec_cmd: vm get_status Building_1_router 
+May 09 13:41:23.630 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding Building_1_router 0 1 
+May 09 13:41:23.631 HYPERVISOR: exec_cmd: nio delete udp-2cbe60db-4472-4a9b-adba-a97a848bd7c9 

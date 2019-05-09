@@ -1,0 +1,37 @@
+May 09 13:13:52.907 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 09 13:13:52.907 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51751.
+May 09 13:13:52.911 HYPERVISOR: exec_cmd: hypervisor version 
+May 09 13:13:52.911 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips 
+May 09 13:13:52.911 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips
+May 09 13:13:52.912 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips/2b3bfb34-8c57-461b-9856-b62eb2753994 
+May 09 13:13:52.912 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips/2b3bfb34-8c57-461b-9856-b62eb2753994
+May 09 13:13:52.912 HYPERVISOR: exec_cmd: vm create AU 3 c2691 
+May 09 13:13:52.912 VM: VM AU created.
+May 09 13:13:52.912 HYPERVISOR: exec_cmd: vm set_con_tcp_port AU 5010 
+May 09 13:13:52.913 HYPERVISOR: exec_cmd: c2691 get_mac_addr AU 
+May 09 13:13:52.913 HYPERVISOR: exec_cmd: c2691 set_mac_addr AU c003.1be4.0000 
+May 09 13:13:52.913 HYPERVISOR: exec_cmd: vm set_nvram AU 256 
+May 09 13:13:52.913 HYPERVISOR: exec_cmd: vm get_status AU 
+May 09 13:13:52.914 HYPERVISOR: exec_cmd: vm set_idle_pc AU 0x60a4c074 
+May 09 13:13:52.914 HYPERVISOR: exec_cmd: vm set_ram AU 192 
+May 09 13:13:52.914 HYPERVISOR: exec_cmd: vm set_disk0 AU 0 
+May 09 13:13:52.914 HYPERVISOR: exec_cmd: vm set_ios AU /home/alci/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25b.image 
+May 09 13:13:54.922 HYPERVISOR: exec_cmd: nio create_udp udp-d02d6b36-a622-419f-bae8-fcbe81053b3f 10042 127.0.0.1 10043 
+May 09 13:13:55.137 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AU 0 0 udp-d02d6b36-a622-419f-bae8-fcbe81053b3f 
+May 09 13:13:55.138 HYPERVISOR: exec_cmd: vm get_status AU 
+May 09 13:13:55.342 HYPERVISOR: exec_cmd: nio create_udp udp-32e9ce7a-0056-4159-b410-32bc88caa5ae 10054 127.0.0.1 10055 
+May 09 13:13:55.344 HYPERVISOR: exec_cmd: vm slot_add_nio_binding AU 0 1 udp-32e9ce7a-0056-4159-b410-32bc88caa5ae 
+May 09 13:13:55.344 HYPERVISOR: exec_cmd: vm get_status AU 
+May 09 13:14:16.555 HYPERVISOR: exec_cmd: vm set_ios AU /home/alci/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25b.image 
+May 09 13:17:50.732 HYPERVISOR: exec_cmd: vm set_ios AU /home/alci/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25b.image 
+May 09 13:33:18.139 HYPERVISOR: exec_cmd: vm get_status AU 
+May 09 13:33:18.141 HYPERVISOR: exec_cmd: vm extract_config AU 
+May 09 13:34:03.113 HYPERVISOR: exec_cmd: vm get_status AU 
+May 09 13:34:03.114 HYPERVISOR: exec_cmd: vm extract_config AU 
+May 09 13:34:03.330 HYPERVISOR: exec_cmd: vm get_status AU 
+May 09 13:34:03.331 HYPERVISOR: exec_cmd: vm extract_config AU 
+May 09 13:34:03.332 HYPERVISOR: exec_cmd: vm delete AU 
+May 09 13:34:03.332 VM: VM AU destroyed.
+May 09 13:34:03.334 HYPERVISOR: exec_cmd: hypervisor stop 
+May 09 13:34:03.703 HYPERVISOR: Stopped.
+May 09 13:34:03.703 GENERAL: reset done.

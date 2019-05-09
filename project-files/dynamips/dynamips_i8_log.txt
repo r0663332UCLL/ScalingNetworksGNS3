@@ -1,0 +1,31 @@
+May 09 13:34:18.751 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 09 13:34:18.751 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49117.
+May 09 13:34:18.762 HYPERVISOR: exec_cmd: hypervisor version 
+May 09 13:34:18.762 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips 
+May 09 13:34:18.763 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips
+May 09 13:34:18.763 HYPERVISOR: exec_cmd: ethsw create Agg_B2_1 
+May 09 13:34:18.914 HYPERVISOR: exec_cmd: nio create_udp udp-4b5e32ff-e508-4e96-a39a-526effc10e04 10000 127.0.0.1 10001 
+May 09 13:34:18.914 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B2_1 udp-4b5e32ff-e508-4e96-a39a-526effc10e04 
+May 09 13:34:18.931 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B2_1 udp-4b5e32ff-e508-4e96-a39a-526effc10e04 1 
+May 09 13:34:19.859 HYPERVISOR: exec_cmd: nio create_udp udp-edc8554a-05a3-4713-aba1-518981a664dd 10014 127.0.0.1 10015 
+May 09 13:34:19.860 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B2_1 udp-edc8554a-05a3-4713-aba1-518981a664dd 
+May 09 13:34:19.881 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B2_1 udp-edc8554a-05a3-4713-aba1-518981a664dd 1 
+May 09 13:34:20.841 HYPERVISOR: exec_cmd: nio create_udp udp-bc5518fa-772c-49f2-a49e-37db241d0ab3 10042 127.0.0.1 10043 
+May 09 13:34:20.841 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B2_1 udp-bc5518fa-772c-49f2-a49e-37db241d0ab3 
+May 09 13:34:20.848 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B2_1 udp-bc5518fa-772c-49f2-a49e-37db241d0ab3 1 
+May 09 13:34:21.013 HYPERVISOR: exec_cmd: nio create_udp udp-05dd386b-677e-4b14-8ea3-f97a307fa99c 10057 127.0.0.1 10056 
+May 09 13:34:21.013 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B2_1 udp-05dd386b-677e-4b14-8ea3-f97a307fa99c 
+May 09 13:34:21.029 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B2_1 udp-05dd386b-677e-4b14-8ea3-f97a307fa99c 1 
+May 09 13:37:14.799 HYPERVISOR: exec_cmd: ethsw remove_nio Agg_B2_1 udp-05dd386b-677e-4b14-8ea3-f97a307fa99c 
+May 09 13:37:14.820 HYPERVISOR: exec_cmd: nio delete udp-05dd386b-677e-4b14-8ea3-f97a307fa99c 
+May 09 13:37:21.778 HYPERVISOR: exec_cmd: nio create_udp udp-f1069fba-df8a-43ef-b40c-addd4bf94a96 10011 127.0.0.1 10010 
+May 09 13:37:21.779 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B2_1 udp-f1069fba-df8a-43ef-b40c-addd4bf94a96 
+May 09 13:37:21.791 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B2_1 udp-f1069fba-df8a-43ef-b40c-addd4bf94a96 1 
+May 09 13:37:28.364 HYPERVISOR: exec_cmd: nio create_udp udp-92027674-9780-4a9a-b688-d2b8b69d65de 10013 127.0.0.1 10012 
+May 09 13:37:28.364 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B2_1 udp-92027674-9780-4a9a-b688-d2b8b69d65de 
+May 09 13:37:28.377 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B2_1 udp-92027674-9780-4a9a-b688-d2b8b69d65de 1 
+May 09 13:38:11.248 HYPERVISOR: exec_cmd: nio create_udp udp-16efcb7f-689e-4efa-9ddc-007bccc32449 10056 127.0.0.1 10057 
+May 09 13:38:11.248 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B2_1 udp-16efcb7f-689e-4efa-9ddc-007bccc32449 
+May 09 13:38:11.266 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B2_1 udp-16efcb7f-689e-4efa-9ddc-007bccc32449 1 
+May 09 13:38:19.711 HYPERVISOR: exec_cmd: ethsw remove_nio Agg_B2_1 udp-bc5518fa-772c-49f2-a49e-37db241d0ab3 
+May 09 13:38:19.718 HYPERVISOR: exec_cmd: nio delete udp-bc5518fa-772c-49f2-a49e-37db241d0ab3 

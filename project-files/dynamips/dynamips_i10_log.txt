@@ -1,0 +1,18 @@
+May 09 13:34:18.810 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 09 13:34:18.810 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52867.
+May 09 13:34:18.820 HYPERVISOR: exec_cmd: hypervisor version 
+May 09 13:34:18.820 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips 
+May 09 13:34:18.820 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips
+May 09 13:34:18.821 HYPERVISOR: exec_cmd: ethsw create Agg_B1_1(verdieping8) 
+May 09 13:34:19.979 HYPERVISOR: exec_cmd: nio create_udp udp-3f043750-0bae-4e48-af07-a9c94bbd9fa5 10017 127.0.0.1 10016 
+May 09 13:34:19.980 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B1_1(verdieping8) udp-3f043750-0bae-4e48-af07-a9c94bbd9fa5 
+May 09 13:34:19.999 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B1_1(verdieping8) udp-3f043750-0bae-4e48-af07-a9c94bbd9fa5 1 
+May 09 13:34:20.217 HYPERVISOR: exec_cmd: nio create_udp udp-7d98c6ee-9e77-45f1-9c4e-156c86238ce0 10024 127.0.0.1 10025 
+May 09 13:34:20.218 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B1_1(verdieping8) udp-7d98c6ee-9e77-45f1-9c4e-156c86238ce0 
+May 09 13:34:20.219 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B1_1(verdieping8) udp-7d98c6ee-9e77-45f1-9c4e-156c86238ce0 1 
+May 09 13:34:20.301 HYPERVISOR: exec_cmd: nio create_udp udp-358a97a4-6956-4910-bb39-5bca759e621f 10026 127.0.0.1 10027 
+May 09 13:34:20.302 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B1_1(verdieping8) udp-358a97a4-6956-4910-bb39-5bca759e621f 
+May 09 13:34:20.320 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B1_1(verdieping8) udp-358a97a4-6956-4910-bb39-5bca759e621f 1 
+May 09 13:34:21.065 HYPERVISOR: exec_cmd: nio create_udp udp-8a335db3-39f7-441b-a959-765a1ee69b07 10060 127.0.0.1 10061 
+May 09 13:34:21.065 HYPERVISOR: exec_cmd: ethsw add_nio Agg_B1_1(verdieping8) udp-8a335db3-39f7-441b-a959-765a1ee69b07 
+May 09 13:34:21.085 HYPERVISOR: exec_cmd: ethsw set_access_port Agg_B1_1(verdieping8) udp-8a335db3-39f7-441b-a959-765a1ee69b07 1 

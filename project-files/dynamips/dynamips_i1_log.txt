@@ -1,0 +1,27 @@
+May 09 13:34:18.546 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 09 13:34:18.546 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59687.
+May 09 13:34:18.549 HYPERVISOR: exec_cmd: hypervisor version 
+May 09 13:34:18.549 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips 
+May 09 13:34:18.549 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips
+May 09 13:34:18.550 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips/ed5dd539-7d40-4424-9d89-c5dba976b4e9 
+May 09 13:34:18.550 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips/ed5dd539-7d40-4424-9d89-c5dba976b4e9
+May 09 13:34:18.550 HYPERVISOR: exec_cmd: vm create Fusion_GOL 4 c2691 
+May 09 13:34:18.550 VM: VM Fusion_GOL created.
+May 09 13:34:18.550 HYPERVISOR: exec_cmd: vm set_con_tcp_port Fusion_GOL 5011 
+May 09 13:34:18.551 HYPERVISOR: exec_cmd: c2691 get_mac_addr Fusion_GOL 
+May 09 13:34:18.551 HYPERVISOR: exec_cmd: c2691 set_mac_addr Fusion_GOL c004.1bf3.0000 
+May 09 13:34:18.551 HYPERVISOR: exec_cmd: vm get_status Fusion_GOL 
+May 09 13:34:18.551 HYPERVISOR: exec_cmd: vm set_idle_pc Fusion_GOL 0x60a4c074 
+May 09 13:34:18.552 HYPERVISOR: exec_cmd: vm set_ios Fusion_GOL /home/alci/GNS3/images/IOS/c2691-adventerprisek9-mz.124-25b.image 
+May 09 13:34:18.552 HYPERVISOR: exec_cmd: vm set_ram Fusion_GOL 192 
+May 09 13:34:18.552 HYPERVISOR: exec_cmd: vm set_nvram Fusion_GOL 256 
+May 09 13:34:18.552 HYPERVISOR: exec_cmd: vm set_disk0 Fusion_GOL 0 
+May 09 13:34:20.496 HYPERVISOR: exec_cmd: nio create_udp udp-dad3db1c-7faa-4d95-b213-5b281edcdc09 10034 127.0.0.1 10035 
+May 09 13:34:20.710 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Fusion_GOL 0 0 udp-dad3db1c-7faa-4d95-b213-5b281edcdc09 
+May 09 13:34:20.711 HYPERVISOR: exec_cmd: vm get_status Fusion_GOL 
+May 09 13:34:20.916 HYPERVISOR: exec_cmd: nio create_udp udp-ad649f13-ed61-4d0b-a8a2-75301cff3b01 10046 127.0.0.1 10047 
+May 09 13:34:20.917 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Fusion_GOL 0 1 udp-ad649f13-ed61-4d0b-a8a2-75301cff3b01 
+May 09 13:34:20.918 HYPERVISOR: exec_cmd: vm get_status Fusion_GOL 
+May 09 13:41:23.626 HYPERVISOR: exec_cmd: vm get_status Fusion_GOL 
+May 09 13:41:23.626 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding Fusion_GOL 0 1 
+May 09 13:41:23.627 HYPERVISOR: exec_cmd: nio delete udp-ad649f13-ed61-4d0b-a8a2-75301cff3b01 

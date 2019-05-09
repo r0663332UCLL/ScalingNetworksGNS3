@@ -1,0 +1,17 @@
+May 09 13:34:18.664 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+May 09 13:34:18.664 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 46771.
+May 09 13:34:18.674 HYPERVISOR: exec_cmd: hypervisor version 
+May 09 13:34:18.675 HYPERVISOR: exec_cmd: hypervisor working_dir /home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips 
+May 09 13:34:18.675 GENERAL: working_dir=/home/alci/GNS3/projects/Cosci_network_topology/project-files/dynamips
+May 09 13:34:18.675 HYPERVISOR: exec_cmd: ethsw create Access_B2_2 
+May 09 13:34:18.980 HYPERVISOR: exec_cmd: nio create_udp udp-5d565302-c49e-436e-a9ec-037818accb94 10002 127.0.0.1 10003 
+May 09 13:34:18.980 HYPERVISOR: exec_cmd: ethsw add_nio Access_B2_2 udp-5d565302-c49e-436e-a9ec-037818accb94 
+May 09 13:34:18.986 HYPERVISOR: exec_cmd: ethsw set_access_port Access_B2_2 udp-5d565302-c49e-436e-a9ec-037818accb94 1 
+May 09 13:34:20.860 HYPERVISOR: exec_cmd: nio create_udp udp-a08cdeb5-1b02-4104-9392-04923b0e47b9 10043 127.0.0.1 10042 
+May 09 13:34:20.860 HYPERVISOR: exec_cmd: ethsw add_nio Access_B2_2 udp-a08cdeb5-1b02-4104-9392-04923b0e47b9 
+May 09 13:34:20.880 HYPERVISOR: exec_cmd: ethsw set_access_port Access_B2_2 udp-a08cdeb5-1b02-4104-9392-04923b0e47b9 1 
+May 09 13:34:21.232 HYPERVISOR: exec_cmd: nio create_udp udp-79dea295-0664-4a27-93af-05d8313f01ea 10065 127.0.0.1 10064 
+May 09 13:34:21.232 HYPERVISOR: exec_cmd: ethsw add_nio Access_B2_2 udp-79dea295-0664-4a27-93af-05d8313f01ea 
+May 09 13:34:21.244 HYPERVISOR: exec_cmd: ethsw set_access_port Access_B2_2 udp-79dea295-0664-4a27-93af-05d8313f01ea 1 
+May 09 13:38:19.722 HYPERVISOR: exec_cmd: ethsw remove_nio Access_B2_2 udp-a08cdeb5-1b02-4104-9392-04923b0e47b9 
+May 09 13:38:19.738 HYPERVISOR: exec_cmd: nio delete udp-a08cdeb5-1b02-4104-9392-04923b0e47b9 
